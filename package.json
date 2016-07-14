@@ -1,0 +1,28 @@
+{
+  "name": "global_temperature_board",
+  "version": "1.0.0",
+  "description": "display increasing temperature throught different graphs",
+  "main": "index.js",
+  "scripts": {
+    "test": "show temperature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "global_temperature_board"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "kavita Jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.13.4",
+    "express-stormpath": "^3.1.2",
+    "forms": "^1.1.4",
+    "jade": "^1.11.0",
+    "xtend": "^4.0.1",
+  }
+}
