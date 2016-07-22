@@ -11,7 +11,7 @@ var app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('port', process.env.PORT || 4000);
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'public/views'));
 app.set('view engine', 'jade');
 // app.use(express.favicon());
 // app.use(express.logger('dev'));
